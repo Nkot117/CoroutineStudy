@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17a7434a-1f41-4383-ab82-41b2b6dcaf77" name="変更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/memo/3_CoroutineContext/3_CoroutineContext.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/memo/3_CoroutineContext/CoroutineContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/memo/3_CoroutineContext/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/memo/4_エラーハンドリング/errorhandle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/memo/4_エラーハンドリング/memo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/memo/1_Coroutine以外の非同期処理.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/memo/1_Coroutine以外の非同期処理/1_Coroutine以外の非同期処理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/memo/2_Coroutine.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/memo/2_Coroutine/2_Coroutine.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,32 +50,57 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2hfLsHHWuOmJW2MkZVQ5aALRAfw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.CoroutineStudy のビルド.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/kumakuranaoto/IdeaProjects/CoroutineStudy/src/main/kotlin/Main.kt&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.CoroutineStudy のビルド.executor": "Run",
+    "Kotlin.CoroutineContextKt.executor": "Run",
+    "Kotlin.ErrorhandleKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kumakuranaoto/IdeaProjects/CoroutineStudy/src/main/kotlin/memo",
+    "onboarding.tips.debug.path": "/Users/kumakuranaoto/IdeaProjects/CoroutineStudy/src/main/kotlin/Main.kt"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;/Users/kumakuranaoto/.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/Users/kumakuranaoto/.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/memo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/memo/2_Coroutine" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/memo/1_Coroutine以外の非同期処理" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/memo/3_CoroutineContext" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/memo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.ErrorhandleKt">
+    <configuration name="CoroutineContextKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.memo.3_CoroutineContext.CoroutineContextKt" />
+      <module name="CoroutineStudy.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErrorhandleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.memo.4_エラーハンドリング.ErrorhandleKt" />
+      <module name="CoroutineStudy.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
       <module name="CoroutineStudy.main" />
@@ -73,6 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ErrorhandleKt" />
+        <item itemvalue="Kotlin.CoroutineContextKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -120,16 +159,5 @@
     <MESSAGE value="init" />
     <MESSAGE value="コルーチンライブラリを依存関係に追加" />
     <option name="LAST_COMMIT_MESSAGE" value="コルーチンライブラリを依存関係に追加" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>113</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

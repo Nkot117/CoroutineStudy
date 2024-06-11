@@ -1,0 +1,9 @@
+## Coroutineのエラーハンドリング
+### try-catch
+- Coroutine内で例外はtry-catchで例外をキャッチすることができる
+- CoroutineExceptionHandler
+  - 協働的な例外処理を行うことができる
+    - 複数のCoroutineを起動し、片方が落ちた場合、他のCoroutineもキャンセルでき
+- SupervisorJob
+  - Coroutineが失敗しても、他のCoroutineに影響を与えず処理が続行する
+  - ViewModelScope、lifecycleScopeはSupervisorJobを使用している
